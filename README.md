@@ -53,3 +53,9 @@ mkdir -p ~/.config/astronvim/lua/user
 ```
 
 Inside that new folder you create a file called `init.lua`. Check out this [example configuration](https://astronvim.github.io/Configuration/basic_configuration#example-user-configuration) to know what you can do.
+
+Instead of running `astro +PackerSync` to initialize AstroNvim you can run the following command to do a fully headless initialization:
+
+```bash
+astro  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+```
