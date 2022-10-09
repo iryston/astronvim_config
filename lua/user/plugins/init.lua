@@ -2,6 +2,9 @@
 return {
   -- Add plugins, the packer syntax without the "use"
   init = {
+    -- disable plugins:
+    -- ["akinsho/bufferline.nvim"] = { disable = true }
+    -- ["mrjones2014/smart-splits.nvim"] = { disable = true },
     { "sheerun/vim-polyglot" },
     {
       "nacro90/numb.nvim",
@@ -29,7 +32,6 @@ return {
           -- end
         }
       end,
-    }, -- disable plugins:
-    -- ["akinsho/bufferline.nvim"] = { disable = true }
+    },
   },
 }
