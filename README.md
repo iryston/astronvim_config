@@ -14,6 +14,14 @@ Assuming you are using linux:
 git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.local/share/astronvim/core
 ```
 
+- Clone this configuration in the same location the variable user_path gives you.
+
+```bash
+git clone --depth 1 git@github.com:iryston/astronvim_config.git ~/.config/astronvim
+```
+
+Or create your own configuration manualy.
+
 - Create a configuration folder in the same location the variable `user_path` gives you.
 
 ```bash
