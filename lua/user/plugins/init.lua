@@ -19,6 +19,10 @@ return {
       end,
     },
     {
+      'uloco/bluloco.nvim',
+      requires = { 'rktjmp/lush.nvim' }
+    },
+    {
       "folke/tokyonight.nvim",
       config = function()
         require("tokyonight").setup {

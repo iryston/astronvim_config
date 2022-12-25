@@ -27,7 +27,7 @@ user.updater = {
 }
 
 -- Set colorscheme
-user.colorscheme = "tokyonight"
+user.colorscheme = "bluloco"
 
 -- Add highlight groups in any theme
 user.highlights = {
